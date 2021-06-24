@@ -1,0 +1,16 @@
+server:
+  port: 8097
+spring:
+ datasource:
+  url: jdbc:mysql://localhost:3306/microservicesexample
+  username: root
+  password: 12345
+  driver-class-name: com.mysql.cj.jdbc.Driver
+ application:
+  name: school-service
+ jpa: 
+  database-platform: org.hibernate.dialect.MySQL5Dialect
+  hibernate.ddl-auto: update
+
+
+
